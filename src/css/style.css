@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: var(--azul_escuro);
+    position: relative;
+    padding-bottom: 12%;
+}
+
+:root {
+    --azul_escuro: #081526;
+    --azul_clarin: #CED7F2;
+    --cinza_azulado: #818AA6;
+    --branco: #fff;
+    --verde_gosma: ##378C84;
+    --verde_praia: #55D9B3;
+}
+
+/*CABECALHO*/
+
+.cabecalho {
+    font-family: "JetBrains Mono";
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-cabecalho {
+    width: 70px;
+    margin-left: 50px;
+}
+
+.btn-menu {
+    display: flex;
+}
+
+.list {
+    color: var(--verde_praia);
+}
+
+.links {
+    padding-right: 80px;
+    color: var(--azul_clarin);
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 0px;
+    border-radius: 10px;
+}
+
+/*CABECALHO FIM*/
+
+/*Conteudo Principal*/
+
+.conteudo {
+    font-family: "Amatic SC", sans-serif;
+    margin: 10% 50px;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+.titulo-subtitulo {
+    font-family: "Montserrat", sans-serif;
+    border-radius: 10px;
+    padding: 25px 30px;
+}
+
+.titulo {
+    color: var(--verde_praia);
+    margin-bottom: 18px;
+    padding-left: 11rem;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.subtitulos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.subtitulo-main {
+    color: var(--azul_clarin);
+    font-size: 50px;
+    padding-left: 12rem;
+    margin-bottom: 3rem;
+}
+
+.subtitulo-main_1 {
+    font-family: "";
+    color: var(--branco);
+    font-size: 30px;
+    padding-left: 12rem;
+    padding-right: 18rem;
+}
+
+/*Conteudo Principal*/
+
+/*RODAPE*/
+
+.rodape {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    justify-content: center;
+    background-color: var(--azul_escuro);
+}
+
+.redes-socias {
+    font-family: "JetBrains Mono";
+    padding: 0px 20px 0px 0px;
+    color: var(--branco);
+}
+
+.img-github {
+    height: 50px;
+}
+
+.img-instagram {
+    padding: 0px 20px 0px 0px;
+    height: 50px;
+}
+
+/*RODAPE*/
+
+/*----------------------------------------------*/
+
+/*PROJETOS*/
+
+.conteudo2 {
+    font-family: "Amatic SC", sans-serif;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo2 {
+    color: var(--branco);
+    margin-bottom: 18px;
+    font-size: 80px;
+    margin-top: 2%;
+}
+
+.img-projeto {
+    height: 400px;
+    border-radius: 10px;
+    margin: 30px 70px;
+    cursor: pointer;
+    border: solid 3px var(--violeta_claro);
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.paragrafo-projetos {
+    color: var(--branco);
+    font-size: 40px;
+}
+
+/*PROJETOS*/
+
+/*TEMA*/
+
+#botaotrocartema {
+    background: none;
+    border: none;
+    width: 20px;
+}
