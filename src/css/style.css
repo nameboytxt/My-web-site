@@ -6,6 +6,7 @@ body {
 }
 
 :root {
+    --azul_escuro-2: #08182e;
     --azul_escuro: #081526;
     --azul_clarin: #CED7F2;
     --cinza_azulado: #818AA6;
@@ -83,8 +84,9 @@ body {
 }
 
 .subtitulo-main-1{
-    margin-top: 10px;
-    font-size: 40px ;
+    margin-top: 5px;
+    margin-right: 5%;
+    font-size: 35px ;
     color: var(--cinza_azulado);
     font-family: "JetBrains Mono";font-family: 'JetBrains Mono' , 'sans-serif';
 
@@ -92,7 +94,7 @@ body {
 .subtitulo-main-2{
     font-family: "JetBrains Mono";font-family: 'JetBrains Mono' , 'sans-serif';
     color: var(--verde_praia);
-    font-weight: 100;
+    font-weight: 300;
     font-size: 20px;
     margin-top: 10px;
     padding-right: 50ch;
@@ -129,23 +131,35 @@ body {
 
 /*PROJETOS*/
 
+.listagem-projetos {
+    background-color: var(--azul_escuro-2);
+    margin-top: 40px;
+    border: solid 2px var(--azul_clarin) ;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
 .conteudo2 {
-    font-family: "Amatic SC", sans-serif;
+    font-family: 'JetBrains Mono';
     flex-direction: column;
     text-align: center;
 }
 
-.titulo2 {
-    color: var(--branco);
+.titulo-2 {
+    color: var(--azul_clarin);
     margin-bottom: 18px;
-    font-size: 80px;
+    font-size: 60px;
     margin-top: 2%;
 }
 
 .img-projeto {
     height: 400px;
     border-radius: 10px;
-    margin: 30px 70px;
+    margin-left: 30px;
+    margin-right: 70px;
     cursor: pointer;
     border: solid 3px var(--violeta_claro);
 }
@@ -159,7 +173,7 @@ body {
 
 .paragrafo-projetos {
     color: var(--branco);
-    font-size: 40px;
+    font-size: 30px;
 }
 
 /*PROJETOS*/
