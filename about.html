@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="./src/img/hacker-cat.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/8d805c03a8.js" crossorigin="anonymous"></script>
 
+    <link rel="shortcut icon" href="./src/img/hacker-cat.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/responsivo.css">
@@ -17,16 +18,19 @@
 </head>
 
 <body>
-    <header class="cabecalho"> <!--cabecalho-->
+    <header><!--cabecalho-->
 
-        <img src="./src/img/OIG1.png" alt="" class="logo-cabecalho"><!--Logo da pagina-->
+        <img src="./src/img/OIG1.png" alt="" class="logo-header"><!--Logo da pagina-->
         <nav class="menu">
             <ol class="btn-menu"> <!--botoes menu-->
-                <li href="./index.html" class="list"><a class="links" href="./index.html">Start</a></li>
-                <li href="./projetos.html" class="list"><a class="links" href="./projetos.html">Project</a></li>
-                <li href="./sobremin.html" class="list"><a class="links" href="./about.html">About</a></li>
+                <li href="./index.html" class="list-header"><a class="links-header" href="./index.html">Start</a></li>
+                <li href="./projetos.html" class="list-header"><a class="links-header"
+                        href="./projetos.html">Project</a></li>
+                <li href="./sobremin.html" class="list-header"><a class="links-header" href="./about.html">About</a>
+                </li>
             </ol>
         </nav>
+
     </header> <!--cabecalho-->
 
     <main class="conteudo"> <!--Coteudo do site-->
@@ -38,13 +42,17 @@
         </h2>
     </main>
 
-    <footer class="rodape">
-        <img class="img-github" src="./src/img/GitHub-Logo.png" alt="github">
-        <a href="https://github.com/GabrielZTX" class="redes-socias">Perfil/GabrielZTX</a>
-        <img class="img-instagram" src="./src/img/1658586823instagram-logo-transparent.png" alt="instagram">
-        <a href="https://www.instagram.com/luccas_.vx/" class="redes-socias">Instagram/luccas_.vx</a>
+    <footer>
+        <div class="footer-alight">
+            <i class="fa-brands fa-github-alt img-github"></i> <!--icon do github-->
+            <a href="https://github.com/GabrielZTX" class="social-media">Profile/GabrielZTX</a>
+        </div>
+        <div class="footer-alight">
+            <i class="fa-brands fa-instagram img-instagram"></i><!--imagem do instagram-->
+            <a href="https://www.instagram.com/luccas_.vx/" class="social-media">Instagram/luccas_.vx</a>
+        </div>
+        <p class="copry">©</p>
     </footer>
-    <script src="https://kit.fontawesome.com/8d805c03a8.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

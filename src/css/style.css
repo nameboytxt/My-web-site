@@ -3,6 +3,7 @@
 
 body {
     background-color: var(--azul_escuro);
+    font-family: 'JetBrains Mono', 'sans-serif';
 }
 
 :root {
@@ -15,173 +16,123 @@ body {
     --verde_praia: #55D9B3;
 }
 
-/*CABECALHO*/
+/*HEADER*/
 
-.cabecalho {
-    font-family: "JetBrains Mono";
-    padding: 15px;
+header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 
-.logo-cabecalho {
-    width: 70px;
+.logo-header {
+    height: 80px;
     margin-left: 50px;
 }
 
 .btn-menu {
     display: flex;
+    color: var(--verde_gosma);
 }
 
-.list {
-    color: var(--verde_praia);
-}
-
-.links {
-    padding-right: 80px;
-    color: var(--azul_clarin);
-    font-weight: 500;
+.links-header {
+    position: relative;
+    margin-right: 50px;
     font-size: 20px;
-    margin-right: 0px;
-    border-radius: 10px;
-}
-
-/*CABECALHO FIM*/
-
-/*Conteudo Principal*/
-
-.conteudo {
-    font-family: "Amatic SC", sans-serif;
-    margin: 10% 50px;
-    padding: 30px 30px;
-    border-radius: 10px;
-}
-
-.titulo-subtitulo {
-    font-family: "Montserrat", sans-serif;
-    border-radius: 10px;
-    padding: 25px 30px;
-}
-
-.titulo {
-    font-family: 'montserrat' , 'sans-serif';
-    color: var(--verde_praia);
-    margin-bottom: 6px;
-    font-size: 30px;
-    font-weight: 200;
-}
-
-.conteudo-1 {
-    flex-direction: column;
-    display: flex;
-    margin-left: 10%;
-}
-
-.subtitulo-main{
     color: var(--azul_clarin);
-    font-size: 60px;
+    padding-bottom: 5px;
+  }
+  
+.links-header::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      border-radius: 4px;
+      background-color: var(--verde_praia);
+      bottom: 0;
+      left: 0;
+      transform-origin: right;
+      transform: scaleX(0);
+      transition: transform .3s ease-in-out;
+    }
+  
+.links-header:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+
+
+/*HEADER END*/
+
+/*CONTENT HOME*/
+
+.content-home {
+    margin-top: 10%;
+    margin-left: 4%;
 }
 
-.subtitulo-main-1{
-    margin-top: 5px;
-    margin-right: 5%;
-    font-size: 35px ;
+.title-home {
+    color: var(--verde_praia);
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.caption-home {
     color: var(--cinza_azulado);
-    font-family: "JetBrains Mono";font-family: 'JetBrains Mono' , 'sans-serif';
-
+    font-size: 50px;
 }
-.subtitulo-main-2{
-    font-family: "JetBrains Mono";font-family: 'JetBrains Mono' , 'sans-serif';
+.caption-home-2 {
+    color: var(--azul_clarin);
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.caption-home-3 {
     color: var(--verde_praia);
     font-weight: 300;
-    font-size: 20px;
-    margin-top: 10px;
-    padding-right: 50ch;
+    max-width: 80ch;
 }
+/*CONTENT HOME END*/
 
-/*Conteudo Principal*/
+/*FOOTER*/
 
-/*RODAPE*/
-
-.rodape {
-    justify-content: center;
-    align-items: center ;
+footer {
+    margin-top: 20%;
     display: flex;
+    justify-content: center;
 }
 
-.redes-socias {
-    font-family: "JetBrains Mono";
-    padding: 0px 20px 0px 0px;
-    color: var(--branco);
+.footer-alight{
+    align-items: center;
+    display: flex;
+    margin: 20px;
 }
 
 .img-github {
-    height: 50px;
+    font-size: 50px;
+    color: var(--verde_praia);
 }
-
 .img-instagram {
-    padding: 0px 20px 0px 0px;
-    height: 50px;
+    font-size: 50px;
+    color: var(--verde_praia);
 }
 
-/*RODAPE*/
+.social-media {
+    color: var(--branco);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.copry {
+    color: var(--branco);
+}
+
+/*FOOTER END*/
 
 /*----------------------------------------------*/
 
-/*PROJETOS*/
+/*CONTENT PROJECT*/
 
-.listagem-projetos {
-    background-color: var(--azul_escuro-2);
-    margin-top: 40px;
-    border: solid 2px var(--azul_clarin) ;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding-top: 20px; 
-    padding-bottom: 20px;
-    border-radius: 5px;
-}
 
-.conteudo2 {
-    font-family: 'JetBrains Mono';
-    flex-direction: column;
-    text-align: center;
-}
+/*CONTENT PROJECT*/
 
-.titulo-2 {
-    color: var(--azul_clarin);
-    margin-bottom: 18px;
-    font-size: 60px;
-    margin-top: 2%;
-}
-
-.img-projeto {
-    height: 400px;
-    border-radius: 10px;
-    margin-left: 30px;
-    margin-right: 70px;
-    cursor: pointer;
-    border: solid 3px var(--violeta_claro);
-}
-
-.informacoes {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    margin-right: 50px;
-}
-
-.paragrafo-projetos {
-    color: var(--branco);
-    font-size: 30px;
-}
-
-/*PROJETOS*/
-
-/*TEMA*/
-
-#botaotrocartema {
-    background: none;
-    border: none;
-    width: 20px;
-}
+/*CONTENT ABOUT*/
