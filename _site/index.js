@@ -1,0 +1,1 @@
+eu ainda vou usar essa parte pode acreditar me escuta bem aqui voce não vai me vencer ok? 

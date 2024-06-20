@@ -1,0 +1,115 @@
+@media only screen and (max-width: 393px) {
+
+    /*CABECALHO*/
+
+    .cabecalho {
+        font-family: "JetBrains Mono";
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid #ffffff 2px;
+    }
+
+    .logo-cabecalho {
+        width: 70px; 
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .btn-menu {
+        background: none;
+        border: none;
+    }
+    
+    .links {
+        font-weight: 500;
+        font-size: 20px;
+        margin-right: 10px;
+        color: #ffffff;
+    }
+
+    /*CABECALHO FIM*/
+
+    /*Conteudo Principal*/
+    
+    .conteudo {
+        margin: 10% 10px;
+    }
+
+    .titulo-subtitulo {
+        font-family: "Amatic SC", sans-serif;
+        border-radius: 10px;
+        padding: 25px 30px;
+    }
+    
+    .titulo {
+        color: #ffffff;
+        margin-bottom: 18px;
+        font-size: 40px;
+    }
+    
+    .subtitulo {
+        color: #ffffff;
+        font-size: 30px;
+    }
+    
+    /*Conteudo Principal*/
+
+    /*PROJETOS*/
+
+    .conteudo2 {
+        font-family: "Amatic SC", sans-serif;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .titulo2 {
+        color: #ffffff;
+        margin-bottom: 18px;
+        font-size: 50px;
+        margin-top: 2%;
+    }
+    
+    .img-projeto{
+        height: 170px;
+        border-radius: 10px;
+        margin: 30px 0px;
+        cursor: pointer;
+    }
+    
+    .informacoes {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .paragrafo-projetos {
+        color: #ffffff;
+        font-size: 25px;
+    }
+    
+    /*PROJETOS*/
+    
+    /*RODAPE*/
+
+    .rodape {
+        font-size: 10px;
+    }
+
+    .img-github {
+        height: 30px;
+    }
+    
+    .img-instagram{
+        padding: 0px 20px 0px 0px;
+        height: 30px;
+    }
+
+    /*RODAPE*/
+
+}

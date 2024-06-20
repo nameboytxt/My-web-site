@@ -1,7 +1,3 @@
----
-layout: 
----
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -16,12 +12,23 @@ layout:
     <link rel="shortcut icon" href="src/img/GSS  SEM GSS.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/8d805c03a8.js" crossorigin="anonymous"></script>
 
-    <title>{{ site.title }}</title>
+    <title>Nameboytxt</title>
 
 </head>
 <body>
 
-    {% include header.html %}
+    <header><!--cabecalho-->
+    <img src="./src/img/OIG1.png" alt="" class="logo-header"><!--Logo da pagina-->
+    <nav class="menu">
+        <ol class="btn-menu"> <!--botoes menu-->
+            <li href="./index.html" class="list-header"><a class="links-header" href="./index.html">Start</a></li>
+            <li href="./projetos.html" class="list-header"><a class="links-header"
+                    href="./projetos.html">Project</a></li>
+            <li href="./sobremin.html" class="list-header"><a class="links-header" href="./about.html">About</a>
+            </li>
+        </ol>
+    </nav>
+</header>
 
     <main><!--conteudo principal da pagina-->
         <div class="content-home">
@@ -35,7 +42,17 @@ layout:
         </div>
     </main>
 
-    {% include footer.html %}
+    <footer>
+    <div class="footer-alight">
+        <i class="fa-brands fa-github-alt img-github"></i> <!--icon do github-->
+        <a href="https://github.com/GabrielZTX" class="social-media">Profile/GabrielZTX</a>
+    </div>
+    <div class="footer-alight">
+        <i class="fa-brands fa-instagram img-instagram"></i><!--imagem do instagram-->
+        <a href="https://www.instagram.com/luccas_.vx/" class="social-media">Instagram/luccas_.vx</a>
+    </div>
+    <p class="copry">©</p>
+</footer>
 
 </body>
 
