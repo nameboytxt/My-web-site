@@ -122,7 +122,7 @@ header {
     width: 30%;
     border: solid 1px var(--azul_clarin);
     display: flex;
-
+    padding: 18px.0px.18px.18px;
 }
 
 .paragraph-project {
@@ -135,8 +135,9 @@ header {
 }
 
 .img-project {
-	height: 270px;
-    margin-top: 20px;
+	width: 530px;
+    height: 270px;
+    object-fit: cover;
     border-radius: 12px;
     transition: all 0.5s;
     cursor: pointer;
@@ -165,26 +166,19 @@ footer {
     margin: 20px;
 }
 
-.img-github {
-    font-size: 50px;
-    color: var(--verde_praia);
-}
-
-.img-instagram {
+.img-github , .img-instagram {
     font-size: 50px;
     color: var(--verde_praia);
 }
 
 .social-media {
     color: var(--branco);
-    margin-right: 20px;
-    margin-left: 20px;
 }
 
 .copry {
     color: var(--branco);
 }
-
+    
 /*FOOTER END*/
 
 /*----------------------------------------------*/
