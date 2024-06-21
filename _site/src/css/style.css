@@ -40,26 +40,26 @@ header {
     font-size: 20px;
     color: var(--azul_clarin);
     padding-bottom: 5px;
-  }
-  
+}
+
 .links-header::before {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 4px;
-      border-radius: 4px;
-      background-color: var(--verde_praia);
-      bottom: 0;
-      left: 0;
-      transform-origin: right;
-      transform: scaleX(0);
-      transition: transform .3s ease-in-out;
-    }
-  
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--verde_praia);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
 .links-header:hover::before {
     transform-origin: left;
     transform: scaleX(1);
-  }
+}
 
 
 /*HEADER END*/
@@ -81,17 +81,75 @@ header {
     color: var(--cinza_azulado);
     font-size: 50px;
 }
+
 .caption-home-2 {
     color: var(--azul_clarin);
     font-size: 40px;
     margin-bottom: 10px;
 }
+
 .caption-home-3 {
     color: var(--verde_praia);
     font-weight: 300;
     max-width: 80ch;
 }
+
 /*CONTENT HOME END*/
+
+/*CONTENT PROJECT*/
+
+.container-title-project {
+    text-align: center;
+}
+
+.title-project {
+    font-size: 50px;
+    color: var(--verde_praia);
+    margin-top: 30px;
+}
+
+.list-project {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.card-project {
+    background-color: var(--azul_escuro-2);
+    width: 30%;
+    border: solid 1px var(--azul_clarin);
+    display: flex;
+
+}
+
+.paragraph-project {
+    color: var(--branco);
+    font-size: 26px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.img-project {
+	height: 270px;
+    margin-top: 20px;
+    border-radius: 12px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.img-project:hover {
+    transform: scale(0.9);
+}
+/*CONTENT PROJECT END*/
+
+/*CONTENT ABOUT*/
+
+/*CONTENT ABOUT END*/
 
 /*FOOTER*/
 
@@ -101,7 +159,7 @@ footer {
     justify-content: center;
 }
 
-.footer-alight{
+.footer-alight {
     align-items: center;
     display: flex;
     margin: 20px;
@@ -111,6 +169,7 @@ footer {
     font-size: 50px;
     color: var(--verde_praia);
 }
+
 .img-instagram {
     font-size: 50px;
     color: var(--verde_praia);
