@@ -91,7 +91,7 @@ margin-right: 2em ;
 }
 
 .img-project:hover {
-   
+   transform: none;
 }
 
 /*CONTENT-PROJECT-END*/

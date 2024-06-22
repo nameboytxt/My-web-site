@@ -144,7 +144,7 @@ header {
 }
 
 .img-project:hover {
-    transform: none;
+    transform: scale(0.9);
 }
 /*CONTENT PROJECT END*/
 
