@@ -28,16 +28,25 @@
         margin: 0;
     }
 
+    .links-header::before {
+        display: none;
+    }
+    .links-header:hover::before {
+        display: none; 
+    }
+
 /*HEADER END*/
 
 /*CONTENT-HOME*/
 
 .content-home {
 margin-top:7em;
+margin-left: 5em;
+margin-right: 2em ;
 }
 
 .title-home {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .caption-home {
@@ -45,12 +54,13 @@ margin-top:7em;
 }
 
 .caption-home-2 {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .caption-home-3 {
-    font-size: 20px;
-    max-width: 30ch;
+    font-size: 14px;
+    max-width: 38ch;
+    margin-bottom: 20em;
 }
 
 /*CONTENT-HOME-END*/
@@ -77,6 +87,11 @@ margin-top:7em;
 .img-project {
     width: 430px;
     border-radius: 0;
+    cursor: none;
+}
+
+.img-project:hover {
+   
 }
 
 /*CONTENT-PROJECT-END*/
@@ -91,7 +106,7 @@ margin-top:7em;
     margin-top: 3em;
     margin-left: 2em;
     margin-right: 2em;
-    margin-bottom: 9em;
+    margin-bottom: 7em;
 }
 
 

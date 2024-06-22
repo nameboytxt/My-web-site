@@ -144,7 +144,7 @@ header {
 }
 
 .img-project:hover {
-    transform: scale(0.9);
+    transform: none;
 }
 /*CONTENT PROJECT END*/
 
@@ -164,9 +164,10 @@ header {
 
 .subtitle-about {
     color: var(--azul_clarin);
-    margin-left: 7em;
-    margin-right: 7em;
-    margin-top: 9em;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 3em;
+    margin-bottom: 15em;
 }
 
 /*CONTENT ABOUT END*/
