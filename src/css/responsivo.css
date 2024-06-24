@@ -10,6 +10,9 @@
         --verde_praia: #55D9B3;
     }
 
+main {
+    width: 100%;
+}    
 
 /*HEADER*/
  
@@ -86,6 +89,10 @@ header {
 .img-project {
     width: 100%;
     border-radius: 0;
+}
+
+.img-project:hover {
+    transform: none;
 }
 
 /*CONTENT-PROJECT-END*/
