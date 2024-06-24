@@ -1,4 +1,4 @@
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 430px) {
 
     :root {
         --azul_escuro-2: #08182e;
@@ -10,57 +10,52 @@
         --verde_praia: #55D9B3;
     }
 
+
 /*HEADER*/
-    header {
-        display: flex;
-        flex-direction: column;
-    }
+ 
+header {
+    flex-direction: column;
+    align-items: center;
+}
 
-    .logo-header {
-        margin: 0;
-        margin-top: 10px;
-    }
-    .btn-menu {
-        gap: 20px;
-    }
+.logo-header {
+    margin-left: 0;
+}
 
-    .links-header {
-        margin: 0;
-    }
+.btn-menu {
+    gap: 15px;
+}
 
-    .links-header::before {
-        display: none;
-    }
-    .links-header:hover::before {
-        display: none; 
-    }
-
+.links-header {
+    margin-right: 0;
+}
+.links-header::before {
+    display: none;
+}
 /*HEADER END*/
 
 /*CONTENT-HOME*/
 
 .content-home {
-margin-top:7em;
-margin-left: 5em;
-margin-right: 2em ;
+    margin-top: 5em;
+    margin-left: 5em;
 }
 
 .title-home {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .caption-home {
-    font-size: 40px;
+    font-size: 34px;
 }
-
 .caption-home-2 {
-    font-size: 25px;
+    font-size: 20px;
+    margin-right: 15px
 }
-
 .caption-home-3 {
-    font-size: 14px;
-    max-width: 38ch;
-    margin-bottom: 20em;
+    margin-top: 1%;
+    font-size: 18px;
+    margin-bottom: 17em;
 }
 
 /*CONTENT-HOME-END*/
@@ -68,44 +63,49 @@ margin-right: 2em ;
 /*CONTENT-PROJECT*/
 
 .title-project {
-    font-size: 30px;
-    margin-top: 2em;
+    font-size: 38px;
+    margin-bottom: 1em;
 }
 
 .list-project {
-    display: flex;
-    flex-direction: column;
+    margin-left: 2em;
+    margin-right: 2em;
     text-align: center;
-    align-items: center;
+    justify-content: center; 
 }
 
 .card-project {
-    width: 27em;
-    padding: 0px.0px.0px.0px;
+    padding: 0;
+}
+
+.info-card-project {
+    width: 24em; 
+    margin: 0;
 }
 
 .img-project {
-    width: 430px;
+    width: 100%;
     border-radius: 0;
-    cursor: none;
-}
-
-.img-project:hover {
-   transform: none;
 }
 
 /*CONTENT-PROJECT-END*/
 
 /*CONTENT-ABOUT*/
 
+.content-about {
+    text-align: center;
+    align-items: center;
+}
+
 .title-about {
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .subtitle-about {
-    margin-top: 3em;
+    color: var(--azul_clarin);
     margin-left: 2em;
     margin-right: 2em;
+    margin-top: 5%;
     margin-bottom: 7em;
 }
 
@@ -114,10 +114,6 @@ margin-right: 2em ;
 /*CONTENT-ABOUT-END*/
 
 /*FOOTER*/
-
-footer {
-    margin-top: 11em;
-}
 
 /*FOOTER-END*/
 }
